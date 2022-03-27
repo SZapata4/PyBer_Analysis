@@ -11,7 +11,7 @@ This purpose of this project was to break down ride sharing data given to me by 
 After merging the city and ride data frames I used the groupby function to put together a few stats by each city type Rural, Suburban, and Urban. Next, I used those statistics to create the below data frame.
 
 
-[PyBer_city_type_df.png](https://github.com/SZapata4/PyBer_Analysis/blob/main/analysis/PyBer_city_type_df.png)
+![PyBer_city_type_df.png](https://github.com/SZapata4/PyBer_Analysis/blob/main/analysis/PyBer_city_type_df.png)
 
 Looking at this data frame there some interesting takeaways. One is that Total Rides, Total Drivers, and Total Fares are increase as go from Rural to Suburban to Urban cities. Second is that Average Fare per Ride, and Average Fare per Driver react inversely to the other columns as you go from Rural to Suburban to Urban cities.
 
@@ -19,7 +19,7 @@ Looking at this data frame there some interesting takeaways. One is that Total R
 
 After creating the above data frame, I used the pivot and resample functions to create a new data frame where I got the total fare for weeks from 2019-01-01 through 2019-04-28. Then created the below line graph to display the findings.
 
-[PyBer_fare_summary.png](https://github.com/SZapata4/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
+![PyBer_fare_summary.png](https://github.com/SZapata4/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 
 Looking at this graph you can see that Urban cities earn more than the Suburban cities and the suburban total fares are greater than the rural total fares. This is interesting because it is the opposite when you deal with average fares by city.
 
