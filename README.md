@@ -6,7 +6,7 @@ This purpose of this project was to break down ride sharing data given to me by 
 
 ## Results
 
-###City Type Summary Data Frame
+#### City Type Summary Data Frame
 
 After merging the city and ride data frames I used the groupby function to put together a few stats by each city type Rural, Suburban, and Urban. Next, I used those statistics to create the below data frame.
 
@@ -15,7 +15,7 @@ After merging the city and ride data frames I used the groupby function to put t
 
 Looking at this data frame there some interesting takeaways. One is that Total Rides, Total Drivers, and Total Fares are increase as go from Rural to Suburban to Urban cities. Second is that Average Fare per Ride, and Average Fare per Driver react inversely to the other columns as you go from Rural to Suburban to Urban cities.
 
-### Total Weekly Fare by City Type Graph
+#### Total Weekly Fare by City Type Graph
 
 After creating the above data frame, I used the pivot and resample functions to create a new data frame where I got the total fare for weeks from 2019-01-01 through 2019-04-28. Then created the below line graph to display the findings.
 
